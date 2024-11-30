@@ -66,8 +66,8 @@ if __name__ == "__main__":
     ])
 
     # Define the directory paths (update these to your actual dataset paths)
-    image_dir = r"C:\Users\ramis\Desktop\Thyroid Dataset\tn3k\test-image"
-    mask_dir = r"C:\Users\ramis\Desktop\Thyroid Dataset\tn3k\test-mask"
+    image_dir = r"C:\Users\ramis\Desktop\Thyroid Dataset\tn3k\train_image"
+    mask_dir = r"C:\Users\ramis\Desktop\Thyroid Dataset\tn3k\train_mask"
     dataset = MedicalImageDataset(image_dir, mask_dir, transform=transform)
 
     # Load a batch
